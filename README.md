@@ -7,15 +7,17 @@ This repository contains a program that converts temperatures between Celsius, F
 For instance, if a user enters 25 degrees Celsius, the program will convert and display the equivalent temperatures in Fahrenheit and Kelvin.
 
 ### How to Use
-1. Run the program.
-2. Enter the temperature value.
-3. Enter the original unit of measurement (Celsius, Fahrenheit, or Kelvin).
-4. The program will display the converted temperatures in the other two units.
+1. Compile the program.
+2. Run the executable.
+3. Enter the temperature value.
+4. Enter the original unit of measurement (Celsius, Fahrenheit, or Kelvin).
+5. The program will display the converted temperatures in the other two units.
 
 ### Requirements
-- Python 3.x
+- C++ compiler (e.g., g++)
 
-### Running the Program
-To run the program, execute the following command in your terminal:
+### Compiling and Running the Program
+To compile and run the program, execute the following commands in your terminal:
 ```sh
-python temperature_conversion.py
+g++ -o temperature_conversion temperature_conversion.cpp
+./temperature_conversion
